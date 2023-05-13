@@ -2,7 +2,7 @@ This folder contains the majority of resources used in the report and `Main.ipyn
 
 The "Datasets" folder contains different versions of the train and test set, in CSV format:
 - book_rating_train: The original training set provided
-- train_df_50: The preprocessed training set retaining 50 TF-IDF-features (respectively for 'Name' and 'Description').
+- train_df: The preprocessed training set retaining 50 TF-IDF-features (respectively for 'Name' and 'Description').
   * SNB (Stacking Naive Bayes) and SClf (Stacking Classifier), are trained on this dataset.
 - train_df_100: The preprocessed training set retaining 100 TF-IDF-features.
 - train_df_200: The preprocessed training set retaining 200 TF-IDF-features.
